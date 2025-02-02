@@ -92,7 +92,7 @@ const App = () => {
 
         <div className="row mb-4">
           <div className="col">
-            <h1 style={{ fontSize: "2rem", color: "#333" }}>Live Crypto Prices</h1>
+            <h3 style={{ fontSize: "2rem", color: "#333" }}>Live Crypto Prices</h3>
           </div>
         </div>
 
@@ -144,6 +144,7 @@ const App = () => {
 
         {/* table */}
         <div className="table-responsive mt-5">
+        <h3>Crypto Currencies List</h3>
           <table className="table table-dark table-striped table-hover shadow-lg rounded">
             <thead>
               <tr>
